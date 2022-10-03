@@ -1,0 +1,8 @@
+---
+
+- hosts: all
+
+  tasks:
+    - name: This is a hello-world example
+      debug:
+        msg: Your are running 'hello-world' example
